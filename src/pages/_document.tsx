@@ -9,7 +9,7 @@ import Document, {
 } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
-import Favicon from '../assets/goonlogo.ico'
+// import Favicon from '../assets/goonlogo.ico'
 
 export default class MyDocument extends Document {
   static async getInitialProps(
@@ -48,7 +48,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
             rel="stylesheet"
           />
-          <link rel="icon" href={Favicon} />
+          {/* <link rel="icon" href={Favicon} /> */}
         </Head>
 
         <body>

@@ -9,7 +9,7 @@ import { useForm } from 'react-hook-form'
 import { BiLogIn } from 'react-icons/bi'
 import { MdMail } from 'react-icons/md'
 import { RiLockPasswordFill, RiUser2Fill } from 'react-icons/ri'
-import GoonLogo from '../assets/goonlogolight.svg'
+// import GoonLogo from '../assets/goonlogolight.svg'
 
 function CreateUser() {
   const { handleSubmit, register } = useForm()
@@ -28,7 +28,7 @@ function CreateUser() {
       <Head>
         <title>Homepage</title>
       </Head>
-      <GoonLogo />
+      <img src="../assets/goonlogolight.svg" />
       <ContainerLogin onSubmit={handleSubmit(handleCreateUser)}>
         <Input
           register={{ ...register('name') }}

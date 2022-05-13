@@ -13,7 +13,7 @@ import { BiLogIn } from 'react-icons/bi'
 import { MdMail } from 'react-icons/md'
 import { RiLockPasswordFill, RiUser2Fill } from 'react-icons/ri'
 import { VerifyLogin } from 'utils/functions/verify_login'
-import GoonLogo from '../assets/goonlogolight.svg'
+// import GoonLogo from '../assets/goonlogolight.svg'
 
 function LoginUser() {
   const { handleSubmit, register } = useForm()
@@ -36,7 +36,7 @@ function LoginUser() {
       <Head>
         <title>Login</title>
       </Head>
-      <GoonLogo />
+      <img src="../assets/goonlogolight.svg" />
       <ContainerLogin onSubmit={handleSubmit(handleLogin)}>
         <Input
           register={{ ...register('email') }}
