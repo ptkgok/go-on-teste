@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { NotificationProps } from './props'
 
-export const Container = styled.div<NotificationProps>`
+export const Container = styled.div<NotificationProps & any>`
   width: max-content;
   max-width: 200px;
   padding: 10px;
