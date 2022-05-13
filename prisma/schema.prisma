@@ -3,8 +3,9 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = "file:./dev.db"
+  provider          = "postgresql"
+  url               = "postgres://dfphtuoerrnjds:d2d2175b2f3da24f6f7fc69124c1d58e366877e7d3f85c36b1abb5b138c51c0d@ec2-44-196-223-128.compute-1.amazonaws.com:5432/da045fjum0tvjt"
+  shadowDatabaseUrl = "postgres://eunndnbsvnxjfn:5bd08d21c7f409ae5205adf8b760e09e0d850d0a556eea6e3ecff8337504dcea@ec2-44-196-44-90.compute-1.amazonaws.com:5432/d8ska26p4sg4lb"
 }
 
 model Vacation {
